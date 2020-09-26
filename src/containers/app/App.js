@@ -10,12 +10,11 @@ import Main from '../../components/main/main';
 
 
 function App() {
- // console.log(store.getState().contacts)
-  const { contacts } = store.getState();
+  const { contacts, user,activeUserId } = store.getState();
   return (
     <div className="App">
       <Sidebar contacts={ _.values(contacts)} />
-      <Main/>
+      <Main user={user} activeUserId={activeUserId} />
     </div>
   );
 }
