@@ -1,14 +1,16 @@
 import React from 'react';
+import { connect } from 'react-redux';
+
 import styles from './user.module.css';
-import store from '../../store';
 
 import { setActiveUserId } from '../../actions';
 
-const user = ({user})=>{
-    const { name, profile_pic, status } = user;
+const user = (props)=>{
+  console.log(props);
+    const { name, profile_pic, status } = props.user;
     
     return(
-      <div className={styles.User} onClick={handleUserClick.bind(null, user)}>
+      <div className={styles.User} onClick={handleUserClick.bind(null, props)}>
         <img src={profile_pic} alt={name} className={styles.User__pic} />
         <div className={styles.User__details}>
           <p className={styles.User__details_name}>{name}</p>
@@ -18,9 +20,8 @@ const user = ({user})=>{
     );
 }
 
-function handleUserClick({ user_id }) {
-  console.log(user_id)
-  store.dispatch(setActiveUserId(user_id));
+function handleUserClick(props) {
+  props.setActiveUserId(props.user.user_id);
 } 
 
-export default user;
+export default connect(null,{setActiveUserId})(user) ; 
