@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/redux-mastery/static/css/main.c833627c.chunk.css",
+    "main.js": "/redux-mastery/static/js/main.f3de0e06.chunk.js",
+    "main.js.map": "/redux-mastery/static/js/main.f3de0e06.chunk.js.map",
+    "runtime-main.js": "/redux-mastery/static/js/runtime-main.4418b591.js",
+    "runtime-main.js.map": "/redux-mastery/static/js/runtime-main.4418b591.js.map",
+    "static/js/2.191c4dba.chunk.js": "/redux-mastery/static/js/2.191c4dba.chunk.js",
+    "static/js/2.191c4dba.chunk.js.map": "/redux-mastery/static/js/2.191c4dba.chunk.js.map",
+    "index.html": "/redux-mastery/index.html",
+    "precache-manifest.11db91d73baf514dc36c385073782386.js": "/redux-mastery/precache-manifest.11db91d73baf514dc36c385073782386.js",
+    "service-worker.js": "/redux-mastery/service-worker.js",
+    "static/css/main.c833627c.chunk.css.map": "/redux-mastery/static/css/main.c833627c.chunk.css.map",
+    "static/js/2.191c4dba.chunk.js.LICENSE.txt": "/redux-mastery/static/js/2.191c4dba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4418b591.js",
+    "static/js/2.191c4dba.chunk.js",
+    "static/css/main.c833627c.chunk.css",
+    "static/js/main.f3de0e06.chunk.js"
+  ]
+}
