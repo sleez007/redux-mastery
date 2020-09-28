@@ -1,5 +1,5 @@
 
-# React only implementation for absolute beginners
+# Redux only implementation for absolute beginners
 
 Open [https://sleez007.github.io/redux-mastery/](https://sleez007.github.io/redux-mastery/) to view it in the browser.
 
